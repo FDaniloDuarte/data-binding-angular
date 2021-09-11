@@ -23,6 +23,8 @@ export class DataBindingComponent implements OnInit {
   valorSalvo = '';
 
   isMouseOver: boolean = false;
+
+ 
   
   getValor(){
     return 1;
@@ -40,9 +42,9 @@ export class DataBindingComponent implements OnInit {
     this.valorAtual = ((<HTMLInputElement>evento.target).value);
   }
 
-  salvarValor(valor){
+  /*salvarValor(){
     this.valorSalvo = valor;
-  }
+  }*/
 
   onMouseOverOut(){
     this.isMouseOver = !this.isMouseOver;
